@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">UnitreeTest</string>
+
+    <!--Common Message-->
+    <string name="msg_back">返回</string>
+    <string name="msg_confirm">确认</string>
+    <string name="msg_cancel">取消</string>
+    <string name="msg_hint">提示</string>
+    <string name="msg_more">更多</string>
+    <string name="msg_waiting">请稍后...</string>
+
+    <!--Homepage-->
+    <string name="device">设备</string>
+    <string name="more">更多</string>
+    <string name="personal">个人</string>
+    <string name="logo">Unitree</string>
+
+    <!--Device-->
+    <string name="next_step">下一步</string>
+    <string name="completed">完成</string>
+
+    <!--More-->
+    <string name="machine">整机</string>
+    <string name="communication">通信</string>
+    <string name="battery">电池管理</string>
+    <string name="engine">电机</string>
+    <string name="cruise">巡航</string>
+
+    <!--personal-->
+    <string name="password_management">密码管理</string>
+    <string name="my_record">我的记录</string>
+    <string name="technical_support">技术支持</string>
+    <string name="forum">Unitree论坛</string>
+    <string name="account">账号：</string>
+    <string name="authentication_code">验证码：</string>
+    <string name="get_authentication_code">获取验证码</string>
+
+    <!--PasswordManagement-->
+    <string name="modify_password">修改密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="confirm_modify">确认修改</string>
+    <string name="back_password">找回密码</string>
+
+    <!--TechSupport-->
+    <string name="bug_feedback">Bug反馈</string>
+    <string name="product_advice">产品建议</string>
+    <string name="after_sales_service">售后服务</string>
+    <string name="call_us">您可以通过拨打0571-56716562或者发邮件到Laikago@unitree.cc来获取您需要的售后服务或技术支持。</string>
+
+    <!--ModifyInformation-->
+    <string name="modify_information">修改资料</string>
+
+    <!--FirmwareUpdate-->
+    <string name="firmware_update">固件更新</string>
+    <string name="start_update">开始升级</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grid"/>
+
+    <include layout="@layout/layout_console_statusbar" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/proportion"/>
+
+    <com.kongqw.rockerlibrary.view.RockerView
+        android:id="@+id/left_rockerview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:rockerBackground="@drawable/point"
+        app:areaBackground="@drawable/turntable"
+        app:rockerRadius="25dp"/>
+
+    <com.kongqw.rockerlibrary.view.RockerView
+        android:id="@+id/right_rockerview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:rockerBackground="@drawable/point"
+        app:areaBackground="@drawable/turntable"
+        app:rockerRadius="25dp"/>
+    <include layout="@layout/layout_console_button"/>
+</RelativeLayout>

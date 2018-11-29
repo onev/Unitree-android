@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.homepage.DeviceFragment">
+    <include android:id="@+id/logo_bar" layout="@layout/layout_logo_bar"/>
+    <ImageView
+        android:id="@+id/iv_device"
+        android:layout_below="@+id/logo_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/device"/>
+    <com.sunfusheng.marqueeview.MarqueeView
+        android:id="@+id/mv_update"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/logo_bar"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_height="50dp"
+        android:background="#2DAE9C"
+        app:mvAnimDuration="1000"
+        app:mvDirection="left_to_right"
+        app:mvInterval="3000"
+        app:mvTextColor="@color/white"
+        app:mvTextSize="@dimen/medium_txt"
+        app:mvSingleLine="true"/>
+</RelativeLayout>
